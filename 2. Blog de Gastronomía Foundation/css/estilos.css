@@ -1,0 +1,71 @@
+body{
+  background-image: url("../img/cocina_fondo.jpg");
+  background-attachment: fixed;
+}
+
+.container{
+  background-color: rgba(88, 130, 171, 0.5);
+  display: block;
+  margin: 0 auto;
+}
+
+.columnaizq{
+  background-color: rgba(223, 125, 96, 0.9);
+  border-radius: 5px;
+  height:fit-content !important;
+}
+.columnader{
+  background-color: rgba(199, 179, 255, 0.9);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-left: 10px !important;
+  padding: 10px !important;
+}
+
+.input-group{
+  padding-top: 10px;
+}
+
+.button{
+  background-color: rgba(128, 0, 32, 1);
+}
+
+.menu li a{
+  color: rgb(128, 0, 32);
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid;
+  margin-top: 5px;
+}
+
+.tituloizq{
+  color: rgb(128, 0, 32);
+  font-weight: bold;
+}
+
+.historial li{
+  color: rgb(128, 0, 32);
+  list-style-type: none;
+}
+
+.fecha{
+  color: rgb(128, 0, 32);
+}
+
+.columnader textarea{
+  resize: none;
+}
+
+.comentarios{
+  border: 1px solid gray;
+  margin-top: 5px;
+}
+
+.comentarios img{
+  width: 60px;
+}
+
+.columnader h4{
+  font-weight: bold;
+}
