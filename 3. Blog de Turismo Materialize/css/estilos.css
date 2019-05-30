@@ -1,0 +1,101 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+}
+
+.contenedor{
+  background-color: rgba(220, 237, 200, 0.8);
+}
+
+.nav-extended, .nav-content{
+  background-color: #8bc34a !important;
+}
+
+#navbar li a{
+  background-color: black !important;
+}
+
+.logo-img{
+    width: 200px;
+    display: inline;
+}
+.main-title{
+    display: inline;
+    margin-left: 5%;
+}
+
+.img-social{
+  width: 60%;
+  margin-top: 50%;
+}
+
+.contenido{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.fotos img{
+  width: 100%;
+}
+
+#louvre , #sagrada , #pisa , #coliseo , #machu{
+  margin-top: 3%;
+}
+
+.entrada, .autor{
+  background-color: white;
+  margin-top: 3%;
+}
+
+.autor{
+  margin-top: 6%;
+}
+
+#texto{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.acuario{
+  width: 50%;
+  margin: 1%;
+}
+
+.content p{
+  font-size: 18px;
+}
+
+.autor img{
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.formulario{
+  background-color: #8bc34a;
+  margin-bottom: 5%;
+  margin-top: 1%;
+}
+
+button{
+  margin-top: 5%;
+  background-color: black !important;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 992px){
+  nav .logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 992px){
+  nav .main-title {
+    display: block;
+    text-align: center;
+  }
+}
